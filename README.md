@@ -1,0 +1,1 @@
+This is the official bot for the Quasar Discord Server.
