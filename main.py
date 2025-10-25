@@ -34,11 +34,16 @@ STATE_FILE = os.path.join(CONFIG_DIR, 'terminal_state.json')
 
 
 def init_terminal_state():
+    # Ensure required directories exist
+    for folder in [DATA_DIR, CONFIG_DIR, LOG_DIR]:
+        if not os.path.exists(folder):
+            os.makedirs(folder)
+
+    # Initialize or validate state file
     if not os.path.exists(STATE_FILE):
         with open(STATE_FILE, 'w') as f:
             json.dump({'cwd': DATA_DIR}, f)
     else:
-        # Validate the stored cwd
         with open(STATE_FILE, 'r') as f:
             state = json.load(f)
         if not os.path.exists(state.get('cwd', '')):
