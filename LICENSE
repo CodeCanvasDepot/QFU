@@ -1,6 +1,6 @@
-ANTI-MIT LICENSE (v1.0) Copyright (c) 2025 John C.
+ANTI-MIT LICENSE v1.1 — Research Exception Copyright (c) 2025 John C.
 
-Permission is explicitly denied to any person obtaining a copy of this software and associated documentation files (the “Software”), to engage in any activity involving the Software, including but not limited to:
+Permission is denied to any person obtaining a copy of this software and associated documentation files (the “Software”) to engage in any activity involving the Software, including but not limited to:
 
 Using
 
@@ -24,6 +24,14 @@ Deriving works from
 
 Or otherwise interacting with the Software in any way
 
-Any attempt to perform the above actions is strictly prohibited and may constitute a violation of applicable laws. The Software is provided solely for archival and reference purposes and must not be used in any operational, educational, commercial, or recreational context.
+Exception for Research Use Private, non-commercial research and experimentation is permitted, provided that:
+
+The Software is not published, distributed, or shared in any form
+
+The Software is not used in any public-facing, commercial, or production environment
+
+Any findings or results derived from the Software must not include or expose the Software itself
+
+This exception does not grant any rights to reuse, republish, or incorporate the Software into other works.
 
 The Software is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from possession, exposure to, or contemplation of the Software.
